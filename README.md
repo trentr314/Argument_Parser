@@ -28,19 +28,6 @@ You can then navigate to the directory where you would like to download the prog
 $ git clone https://github.com/trentr314/Argument_Parser.git
 ```
 
-# Requirements
-The include folder that I have on this GitHub, adjacent to the other files, is all that is needed to work with TCLAP.  Everything else should be fine with a g++ installation.
-
-If you would like to install TCLAP for yourself, you can use bash command
-```bash
-$ wget http://sourceforge.net/projects/tclap/files/tclap-1.2.1.tar.gz
-```
-and then
-```bash
-tar zxfv tclap-1.2.1.tar.gz
-```
-and you will have the same include folder as I have on this GitHub, along with the rest of a complete TCLAP installation.
-
 # Usage
 If you would like to run the program in your browser, visit [this Repl](https://replit.com/@trentr314/ArgumentParser?v=1).  Running the Repl will run the two following shell scripts automatically.  Pleas be patient as it can take a minute to build.
 
@@ -63,6 +50,20 @@ Running
 $ ./clean.sh
 ```
 will bring the directory back to the state it was in before you compiled the program, without object files or executables or (default) output files.
+
+# Requirements
+The include folder that I have on this GitHub, adjacent to the other files, is all that is needed to work with TCLAP.  Everything else should be fine with a g++ installation.
+
+If you would like to install TCLAP for yourself, you can use bash command
+```bash
+$ wget http://sourceforge.net/projects/tclap/files/tclap-1.2.1.tar.gz
+```
+and then
+```bash
+tar zxfv tclap-1.2.1.tar.gz
+```
+and you will have the same include folder as I have on this GitHub, along with the rest of a complete TCLAP installation.
+
 
 # Contact
 Trent Rogers
