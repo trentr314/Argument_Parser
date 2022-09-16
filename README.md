@@ -1,8 +1,6 @@
 # File IO and Argument Parsing with TCLAP
 This project uses a third-party library, TCLAP (Templatized C++ Command Line Parser), to process arguments given to the C++ program.  The program simply uppercases or lowercases the contents of an input file, according to the arguments given, and writes the result to an output file.
 
-If you would like to run the program in your browser, visit [this Repl]()!! (please be patient as it takes a minute to run).
-
 If you would like to better understand the TCLAP library, you can view the documentation at http://tclap.sourceforge.net
 
 # Getting started
@@ -44,6 +42,10 @@ tar zxfv tclap-1.2.1.tar.gz
 and you will have the same include folder as I have on this GitHub, along with the rest of a complete TCLAP installation.
 
 # Usage
+If you would like to run the program in your browser, visit [this Repl](https://replit.com/@trentr314/ArgumentParser?v=1).  Running the Repl will run the two following shell scripts automatically.  Pleas be patient as it can take a minute to build.
+
+Running the program from your cloned directory:
+
 You can run my shell scripts to compile, test and clean up the program.  I recommend running
 ```bash
 $ ./compile.sh
@@ -60,7 +62,7 @@ Running
 ```bash
 $ ./clean.sh
 ```
-will bring the directory back to the state it was in before you compiled the program, without object files or executables or (default) output files.  From here you can of course compile it again and run it however you like.
+will bring the directory back to the state it was in before you compiled the program, without object files or executables or (default) output files.
 
 # Contact
 Trent Rogers

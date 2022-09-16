@@ -12,7 +12,7 @@
 #	input and output files to the screen to demonstrate the file I/O functions.
 
 echo -e "Compiling and linking tclapInput.cc and tclapFileIO.cc"
-g++ -c -I include  tclapInput.cc
+g++ -c -I include tclapInput.cc
 g++ -c -I include tclapFileIO.cc
 g++ tclapInput.o tclapFileIO.o -o Argument_Parser
 echo -e "Done"
