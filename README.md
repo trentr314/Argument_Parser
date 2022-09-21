@@ -1,4 +1,4 @@
-#"<deleted include directory 2022-09-21 16:00>" File IO and Argument Parsing with TCLAP
+# "<deleted include directory 2022-09-21 16:00> "File IO and Argument Parsing with TCLAP
 This project uses a third-party library, TCLAP (Templatized C++ Command Line Parser), to process arguments given to the C++ program.  The program simply uppercases or lowercases the contents of an input file, according to the arguments given, and writes the result to an output file.
 
 If you would like to better understand the TCLAP library, you can view the documentation at http://tclap.sourceforge.net
